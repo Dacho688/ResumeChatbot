@@ -3,7 +3,6 @@ import gradio as gr
 import spaces
 from huggingface_hub import InferenceClient,login
 
-login(os.getenv("HUGGINGFACEHUB_API_TOKEN"))
 client=InferenceClient()
 
 @spaces.GPU
