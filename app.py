@@ -3,7 +3,7 @@ import gradio as gr
 import spaces
 from huggingface_hub import InferenceClient,login,whoami
 
-if not whoami(False):
+if not whoami(token=False):
     login(os.getenv("HUGGINGFACEHUB_API_TOKEN"))
     
 client=InferenceClient()
