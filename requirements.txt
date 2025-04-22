@@ -1,2 +1,4 @@
-spaces
+spaces == 0.29.2
+gradio == 4.39.0
+huggingface_hub == 0.30.2
 
