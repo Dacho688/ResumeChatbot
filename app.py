@@ -111,4 +111,4 @@ demo = gr.ChatInterface(fn=chat, title="Resume Chatbot", description="Chat with 
                         stop_btn="Stop Generation", multimodal=False)
 
 if __name__ == "__main__":
-    demo.launch(share=True)
+    demo.launch()
